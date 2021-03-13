@@ -43,6 +43,10 @@
     background-color: deepskyblue !important;
 }
 
+.navbar-inverse {
+    background-color: transparent !important;
+}
+
 .navbar-inverse .navbar-collapse {
     border-color: transparent !important;
 }
@@ -128,4 +132,21 @@
     border-color: orangered;
 }
 
+.social-networks a.fa {
+    border: 1px solid white;
+    padding: 10px;
+    color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 25px;
+    margin-right: 2px;
+    transition: all 0.5s ease-in;
+}
+
+.social-networks a.fa:hover {
+    text-decoration: none;
+    background-color: deepskyblue;
+    border: 1px solid deepskyblue;
+    color: white;
+}
 /****************************************************/

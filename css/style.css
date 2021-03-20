@@ -317,3 +317,28 @@
 /****************************************************/
 /*                /Services styles                  */
 /****************************************************/
+
+/****************************************************/
+/*                Work styles                       */
+/****************************************************/
+.work {
+    margin-top: 25px;
+}
+
+.row.no-gutters [class*=col-]{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.img-wrapper {
+    overflow: hidden;
+}
+
+.img-wrapper img {
+    transition: transform 0.5s ease;
+    width: 100%;
+}
+
+.img-wrapper img:hover {
+    transform: scale(1.5);
+}
